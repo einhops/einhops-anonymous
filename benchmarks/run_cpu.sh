@@ -1,0 +1,15 @@
+CUDA_VISIBLE_DEVICES=NULL python 01_matrix_transpose.py >> cpu.txt
+CUDA_VISIBLE_DEVICES=NULL python 02_sum.py >> cpu.txt
+CUDA_VISIBLE_DEVICES=NULL python 03_sum_col.py >> cpu.txt
+CUDA_VISIBLE_DEVICES=NULL python 04_sum_row.py >> cpu.txt
+CUDA_VISIBLE_DEVICES=NULL python 05_matvec_mult.py >> cpu.txt
+CUDA_VISIBLE_DEVICES=NULL python 06_matmat_mult.py >> cpu.txt
+CUDA_VISIBLE_DEVICES=NULL python 07_dotprod.py >> cpu.txt
+CUDA_VISIBLE_DEVICES=NULL python 08_inner.py >> cpu.txt
+CUDA_VISIBLE_DEVICES=NULL python 09_hadamard.py >> cpu.txt
+CUDA_VISIBLE_DEVICES=NULL python 10_outer_product.py >> cpu.txt
+CUDA_VISIBLE_DEVICES=NULL python 11_batched_matmul.py >> cpu.txt
+CUDA_VISIBLE_DEVICES=NULL python 12_threeway_hadamard_mult.py >> cpu.txt
+CUDA_VISIBLE_DEVICES=NULL python 13_chained_matmul.py >> cpu.txt
+CUDA_VISIBLE_DEVICES=NULL python 14_bilinear_transform.py >> cpu.txt
+CUDA_VISIBLE_DEVICES=NULL python 15_tensor_contract.py >> cpu.txt
